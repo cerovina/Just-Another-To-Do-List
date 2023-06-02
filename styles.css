@@ -1,0 +1,201 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    background-image: url("hbg.jpg");
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    align-self: center;
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 1s;
+  }
+  
+  nav ul li a:hover {
+    color: #8A2124;
+  }
+  
+  main {
+    padding: 50px;
+  }
+
+  .Me {
+    width: 200px;
+  }
+
+  .italic {
+font-style: italic;
+font-family: "Caveat";
+font-size: 40px;
+color: #8EB69B;
+  }
+
+  .container1 {
+    display: inline-block;
+    background-color: black;
+  }
+
+  @font-face {
+    font-family: "Cinzel";
+    src: url("Cinzel-VariableFont_wght.ttf") format("truetype")
+  }
+
+  @font-face {
+    font-family: "Caveat";
+    src: url("Caveat-VariableFont_wght.ttf") format("truetype")
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: "Cinzel";
+    margin-top: 25px;
+    margin-bottom: 1px;
+    animation: fade-in 2s ease-in-out;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .text {
+    height: 350px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .AboutMe {
+margin-bottom: 30px;
+margin-top: 30px;
+  }
+
+  .p1 {
+    margin-bottom: 50px;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    animation: fade-in 2s ease-in-out;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: "Cinzel";
+    font-weight: 400;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    animation: fade-in 2s ease-in-out;
+    color: white;
+  }
+
+  .portfolio-item {
+    margin-bottom: 30px;
+    animation: fade-in 2s ease-in-out;
+    color: white;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    color: white;
+  }
+  
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .rotate {
+    animation: rotation 2s;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .linear {
+    animation-timing-function: linear;
+  }
+
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+
+  .hoverpic {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .hoverpic:hover .hover-text {
+    opacity: 1;
+  }
+  
+  .link {
+    color: white;
+    transition: color 0.3s;
+  }
+
+  .link:hover {
+    color: #8A2124;
+  }
+
+  .img1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
